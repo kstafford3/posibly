@@ -1,0 +1,29 @@
+{
+  "name": "posibly",
+  "version": "0.0.1",
+  "description": "Use expected grammar to improve POS tagging.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [
+    "pos",
+    "grammar"
+  ],
+  "author": "kstafford3",
+  "license": "MIT",
+  "dependencies": {
+    "custom-edit-distance": "^0.1.0",
+    "pos": "^0.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "eslint": "^4.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
