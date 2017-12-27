@@ -1,24 +1,33 @@
 {
   "name": "posibly",
   "version": "0.0.1",
-  "description": "Use expected grammar to improve POS tagging.",
+  "description": "Compare and Convert Part-of-Speech Tagged Sentences to Expected Grammar.",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --recursive"
   },
   "keywords": [
     "pos",
-    "grammar"
+    "grammar",
+    "context",
+    "edit-distance",
+    "edit",
+    "distance"
   ],
   "author": "kstafford3",
   "license": "MIT",
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/kstafford3/posibly.git"
+  },
   "dependencies": {
-    "custom-edit-distance": "^0.1.0",
-    "pos": "^0.4.2"
+    "custom-edit-distance": "^0.1.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
+    "pos": "^0.4.2",
     "eslint": "^4.12.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.8.0",
