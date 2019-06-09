@@ -1,6 +1,6 @@
 {
   "name": "posibly",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Compare and Convert Part-of-Speech Tagged Sentences to Expected Grammar.",
   "main": "lib/index.js",
   "scripts": {
